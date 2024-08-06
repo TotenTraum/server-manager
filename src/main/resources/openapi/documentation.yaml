@@ -1,0 +1,26 @@
+openapi: "3.1.0"
+info:
+  title: "server_manager API"
+  description: "server_manager API"
+  version: "1.0.0"
+servers:
+- url: "https://server_manager"
+paths:
+  /fs/{path}:
+    get:
+      description: ""
+      parameters:
+      - name: "path"
+        in: "path"
+        required: true
+        schema:
+          type: "array"
+          items:
+            type: "string"
+      responses:
+        "200":
+          description: "OK"
+          content:
+            text/plain:
+              schema:
+                type: "string"
