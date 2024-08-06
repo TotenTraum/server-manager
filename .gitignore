@@ -43,7 +43,6 @@ bin/
 .DS_Store
 /.idea/
 !/.idea/
-/.idea/
 /.idea/modules/
 /.idea/.gitignore
 /.idea/compiler.xml
@@ -56,3 +55,4 @@ bin/
 /.idea/uiDesigner.xml
 /.idea/vcs.xml
 /.idea/workspace.xml
+/.idea/
