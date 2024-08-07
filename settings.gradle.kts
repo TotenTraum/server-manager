@@ -31,5 +31,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "server-manager"
 
-include(":server", ":shared")
+include(":server", ":shared", ":client")
 

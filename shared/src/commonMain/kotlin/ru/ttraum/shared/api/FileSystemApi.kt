@@ -6,7 +6,7 @@ interface FileSystemApi {
     /**
      *  get entry of a path
      */
-    fun get(path: String, canGetFile: Boolean): GetFSResponse
+    suspend fun get(path: String, canGetFile: Boolean): GetFSResponse
 
-    fun createFile(path: String, fileName: String, bytes: ByteArray, canRewriteFile: Boolean = false)
+    suspend fun createFile(path: String, fileName: String, bytes: ByteArray, canRewriteFile: Boolean = false)
 }

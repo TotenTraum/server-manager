@@ -23,6 +23,7 @@ dependencies {
     implementation("io.ktor:ktor-server-cio-jvm")
     implementation("io.ktor:ktor-server-content-negotiation-jvm")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm")
+    implementation("io.ktor:ktor-server-cors-jvm")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
     testImplementation("io.ktor:ktor-server-test-host-jvm")

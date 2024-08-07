@@ -56,3 +56,11 @@ bin/
 /.idea/vcs.xml
 /.idea/workspace.xml
 /.idea/
+
+.*/
+build/
+out/
+*.imp
+*.ipr
+*.iws
+*.idea
